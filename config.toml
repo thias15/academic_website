@@ -159,10 +159,27 @@ defaultContentLanguageInSubdir = false
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "News"
+  url = "#news"
   weight = 2
+  
+[[menu.main]]
+  name = "Publications"
+  identifier = "pubs"
+  #url = "#publications_selected"
+  weight = 3
 
+[[menu.main]]
+  name = "Selected"
+  parent = "pubs"
+  url = "#publications_selected"
+  
+[[menu.main]]
+  name = "Recent"
+  parent = "pubs"
+  url = "#publications"
+  
+ 
 #[[menu.main]]
 #  name = "Posts"
 #  url = "#posts"
@@ -192,10 +209,20 @@ defaultContentLanguageInSubdir = false
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
-[Languages]
+#[Languages]
 # Configure the English version of the website.
-[languages.en]
-  languageCode = "english"
-  
-[languages.de]
-  languageCode = "german"  
+#[Languages.en]
+#   languageCode = "english"
+
+#[Languages.de]
+#	weight = 1
+#	languageName = "Deutsch"
+#	title = "Meine Webseite"
+#   languageCode = "german"  
+
+#[[Languages.de.menu.main]]
+#	url 	= "/de#about"
+#	name 	= "Startseite"
+#	weight	= 0
+
+
