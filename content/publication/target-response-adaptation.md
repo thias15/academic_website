@@ -27,5 +27,3 @@ url = "https://ivul.kaust.edu.sa/Documents/more/supplementary/Target%20Response%
 #caption = ""
 
 +++
-
-#More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.

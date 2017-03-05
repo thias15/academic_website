@@ -23,7 +23,7 @@ url = "https://ivul.kaust.edu.sa/Documents/more/supplementary/A%20Benchmark%20an
 
 [[url_custom]]
 name = "Simulator"
-url = "https://goo.gl/34H5AI"
+url = "https://ivul.kaust.edu.sa/Pages/UAVSim.aspx"
 
 [[url_custom]]
 name = "Bibtex"
@@ -35,5 +35,3 @@ image = "headers/uav_benchmark_simulator.jpg"
 caption = "A Benchmark and Simulator for UAV Tracking"
 
 +++
-
-#More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
