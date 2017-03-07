@@ -15,6 +15,6 @@ weight = 5
 +++
 
 - March 4, 2017: One Paper [Oral] accepted at CVPR'17
-- October 4, 2017: Demo of our work [A Benchmark and Simulator for UAV Tracking] (/publication/benchmark-simulator-uav/) accepted at ECCV'16
-- July 13, 2017: Two Papers [Spotlight and Poster] accepted at ECCV'16
-- July 1, 2017: One Paper [Interactive Presentation] accepted at IROS'16
+- October 4, 2016: Demo of our work [A Benchmark and Simulator for UAV Tracking] (/publication/benchmark-simulator-uav/) accepted at ECCV'16
+- July 13, 2016: Two Papers [Spotlight and Poster] accepted at ECCV'16
+- July 1, 2016: One Paper [Interactive Presentation] accepted at IROS'16
