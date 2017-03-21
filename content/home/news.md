@@ -14,6 +14,7 @@ weight = 5
 
 +++
 
+- March 18, 2017: 3rd place in challenge 2 of [MBZIRC] (http://www.mbzirc.com/) robotics competition
 - March 4, 2017: One Paper [Oral] accepted at CVPR'17
 - October 4, 2016: Demo of our work [A Benchmark and Simulator for UAV Tracking] (/publication/benchmark-simulator-uav/) accepted at ECCV'16
 - July 13, 2016: Two Papers [Spotlight and Poster] accepted at ECCV'16
