@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Welcome to my website</title>
+    <link>https://matthias.pw/publication/</link>
+    <description>Recent content in Publications on Welcome to my website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2017 Matthias Mueller</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Context-Aware Correlation Filter Tracking</title>
+      <link>https://matthias.pw/publication/cf-ca-tracking/</link>
+      <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/publication/cf-ca-tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Benchmark and Simulator for UAV Tracking</title>
+      <link>https://matthias.pw/publication/benchmark-simulator-uav/</link>
+      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/publication/benchmark-simulator-uav/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Persistent Aerial Tracking System for UAVs</title>
+      <link>https://matthias.pw/publication/pat/</link>
+      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/publication/pat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Target Response Adaptation for Correlation Filter Tracking</title>
+      <link>https://matthias.pw/publication/target-response-adaptation/</link>
+      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/publication/target-response-adaptation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Visual Object Tracking VOT2016 Challenge Results</title>
+      <link>https://matthias.pw/publication/vot16/</link>
+      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/publication/vot16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
