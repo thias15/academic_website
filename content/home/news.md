@@ -16,7 +16,7 @@ weight = 5
 - July 25, 2017: Demo of our simulator [UE4Sim] (https://ue4sim.org/) at [CVPR'17] (http://cvpr2017.thecvf.com/)
 - July 22, 2017: Presented [Context-Aware Correlation Filter Tracking] (/publication/cf-ca-tracking/) at [CVPR'17] (http://cvpr2017.thecvf.com/)
 - July 9-15, 2017: Attended International Computer Vision Summer School [ICVSS'17] (http://iplab.dmi.unict.it/icvss2017/)
-- June 15, 2017: Started internship at Intel VCL Munich
+- June 15, 2017: Started internship at [Intel Visual Computing Lab (VCL)](http://vladlen.info/lab/) in Munich
 - March 18, 2017: 3rd place in challenge 2 of [MBZIRC] (http://www.mbzirc.com/) robotics competition
 - March 4, 2017: One Paper [Oral] accepted at CVPR'17
 - October 13, 2016: Demo of our work [A Benchmark and Simulator for UAV Tracking] (/publication/benchmark-simulator-uav/) at ECCV'16

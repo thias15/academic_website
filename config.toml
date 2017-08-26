@@ -175,9 +175,9 @@ defaultContentLanguageInSubdir = false
   url = "#publications_selected"
   
 [[menu.main]]
-  name = "Recent"
+  name = "All"
   parent = "pubs"
-  url = "#publications"
+  url = "#publications_all"
   
  
 #[[menu.main]]
