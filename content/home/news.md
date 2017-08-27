@@ -13,12 +13,14 @@ widget = "custom"
 weight = 5
 
 +++
-- July 25, 2017: Demo of our simulator [UE4Sim] (https://ue4sim.org/) at [CVPR'17] (http://cvpr2017.thecvf.com/)
-- July 22, 2017: Presented [Context-Aware Correlation Filter Tracking] (/publication/cf-ca-tracking/) at [CVPR'17] (http://cvpr2017.thecvf.com/)
-- July 9-15, 2017: Attended International Computer Vision Summer School [ICVSS'17] (http://iplab.dmi.unict.it/icvss2017/)
-- June 15, 2017: Started internship at [Intel Visual Computing Lab (VCL)](http://vladlen.info/lab/) in Munich
-- March 18, 2017: 3rd place in challenge 2 of [MBZIRC] (http://www.mbzirc.com/) robotics competition
-- March 4, 2017: One Paper [Oral] accepted at CVPR'17
-- October 13, 2016: Demo of our work [A Benchmark and Simulator for UAV Tracking] (/publication/benchmark-simulator-uav/) at ECCV'16
-- July 13, 2016: Two Papers [Spotlight and Poster] accepted at ECCV'16
-- July 1, 2016: One Paper [Interactive Presentation] accepted at IROS'16
+- 19/08/17: Two papers related to [UE4Sim] (https://ue4sim.org/) uploaded to arXiv
+- 25/07/17: Demo of our simulator [UE4Sim] (https://ue4sim.org/) at CVPR'17
+- 22/07/17: Presented [Context-Aware Correlation Filter Tracking] (/publication/cf-ca-tracking/) at CVPR'17
+- 09/07/17: Attended [International Computer Vision Summer School] (http://iplab.dmi.unict.it/icvss2017/)
+- 15/06/17: Started internship at [Intel Visual Computing Lab (VCL)](http://vladlen.info/lab/) in Munich
+- 18/03/17: 3rd place in challenge 2 of [MBZIRC] (http://www.mbzirc.com/) robotics competition
+- 04/03/17: One paper [Oral] accepted at CVPR'17
+- 13/10/16: Demo of our work [A Benchmark and Simulator for UAV Tracking] (/publication/benchmark-simulator-uav/) at ECCV'16
+- 13/07/16: Two papers [Spotlight and Poster] accepted at ECCV'16
+- 01/07/16: One paper [Interactive Presentation] accepted at IROS'16
+- 13/04/16: Defended my [Master Thesis on Persistent Aerial Tracking](http://repository.kaust.edu.sa/kaust/handle/10754/608605)
