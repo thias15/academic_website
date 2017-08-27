@@ -177,7 +177,7 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "All"
   parent = "pubs"
-  url = "#publications_all"
+  url = "#publications_recent"
   
  
 #[[menu.main]]
