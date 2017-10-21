@@ -1,6 +1,6 @@
 baseurl = "https://matthias.pw/"
 title = "Welcome to my website"
-copyright = "&copy; 2017 Matthias Mueller"
+copyright = "&copy; 2017 Matthias Müller"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -19,7 +19,7 @@ defaultContentLanguageInSubdir = false
   hrefTargetBlank = true
 
 [params]
-  name = "Matthias Mueller"
+  name = "Matthias Müller"
   role = "PhD Student - Electrical Engineering (Computer Vision)"
   organization = "King Abdullah University of Science and Technology"
   organization_url = "https://www.kaust.edu.sa/"
