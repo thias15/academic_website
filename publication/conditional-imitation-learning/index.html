@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://matthias.pw/publication/target-response-adaptation/">
+  <link rel="canonical" href="https://matthias.pw/publication/conditional-imitation-learning/">
 
   
 
-  <title>Target Response Adaptation for Correlation Filter Tracking | Welcome to my website</title>
+  <title>End-to-end Driving via Conditional Imitation Learning | Welcome to my website</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -137,12 +137,17 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
+  <div class="article-header">
+    <img src="/img//headers/conditional_imitation_learning.jpg" class="article-banner" itemprop="image">
+    <span class="article-header-caption">End-to-end Driving via Conditional Imitation Learning</span>
+  </div>
+  
 
   <div class="container pub-title">
-    <h1 itemprop="name">Target Response Adaptation for Correlation Filter Tracking</h1>
+    <h1 itemprop="name">End-to-end Driving via Conditional Imitation Learning</h1>
     <span class="pub-authors" itemprop="author">
       
-      Adel Bibi, Matthias Müller, Bernard Ghanem
+      Felipe Codevilla, Matthias Müller, Alexey Dosovitskiy, Antonio López, Vladlen Koltun
       
     </span>
     <span class="pull-right">
@@ -151,35 +156,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmatthias.pw%2fpublication%2ftarget-response-adaptation%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmatthias.pw%2fpublication%2fconditional-imitation-learning%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Target%20Response%20Adaptation%20for%20Correlation%20Filter%20Tracking&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2ftarget-response-adaptation%2f"
+         href="https://twitter.com/intent/tweet?text=End-to-end%20Driving%20via%20Conditional%20Imitation%20Learning&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fconditional-imitation-learning%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2ftarget-response-adaptation%2f&amp;title=Target%20Response%20Adaptation%20for%20Correlation%20Filter%20Tracking"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fconditional-imitation-learning%2f&amp;title=End-to-end%20Driving%20via%20Conditional%20Imitation%20Learning"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmatthias.pw%2fpublication%2ftarget-response-adaptation%2f&amp;title=Target%20Response%20Adaptation%20for%20Correlation%20Filter%20Tracking"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmatthias.pw%2fpublication%2fconditional-imitation-learning%2f&amp;title=End-to-end%20Driving%20via%20Conditional%20Imitation%20Learning"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Target%20Response%20Adaptation%20for%20Correlation%20Filter%20Tracking&amp;body=https%3a%2f%2fmatthias.pw%2fpublication%2ftarget-response-adaptation%2f">
+         href="mailto:?subject=End-to-end%20Driving%20via%20Conditional%20Imitation%20Learning&amp;body=https%3a%2f%2fmatthias.pw%2fpublication%2fconditional-imitation-learning%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -196,7 +201,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">​Most correlation filter (CF) based trackers utilize the circulant structure of the training data to learn a linear filter that best regresses this data to a hand-crafted target response. These circularly shifted patches are only approximations to actual translations in the image, which become unreliable in many realistic tracking scenarios including fast motion, occlusion, etc. In these cases, the traditional use of a single centered Gaussian as the target response impedes tracker performance and can lead to unrecoverable drift. To circumvent this major drawback, we propose a generic framework that can adaptively change the target response from frame to frame, so that the tracker is less sensitive to the cases where circular shifts do not reliably approximate translations. To do that, we reformulate the underlying optimization to solve for both the filter and target response jointly, where the latter is regularized by measurements made using actual translations. This joint problem has a closed form solution and thus allows for multiple templates, kernels, and multi-dimensional features. Extensive experiments on the popular OTB100 benchmark [19] show that our target adaptive framework can be combined with many CF trackers to realize significant overall performance improvement (ranging from 3%-13.5% in precision and 3.2%-13% in accuracy), especially in categories where this adaptation is necessary (e.g. fast motion, motion blur, etc.).</p>
+  <p class="pub-abstract" itemprop="text">Deep networks trained on demonstrations of human driving have learned to follow roads and avoid obstacles. However, driving policies trained via imitation learning cannot be controlled at test time. A vehicle trained end-to-end to imitate an expert cannot be guided to take a specific turn at an upcoming intersection. This limits the utility of such systems. We propose to condition imitation learning on high-level command input. At test time, the learned driving policy functions as a chauffeur that handles sensorimotor coordination but continues to respond to navigational commands. We evaluate different architectures for conditional imitation learning in vision-based driving. We conduct experiments in realistic three-dimensional simulations of urban driving and on a 1/5 scale robotic truck that is trained to drive in a residential area. Both systems drive based on visual input yet remain responsive to high-level navigational commands. Experimental results demonstrate that the presented approach significantly outperforms a number of baselines.</p>
 
   
   <div class="row">
@@ -223,7 +228,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">Spotlight at European Conference on Computer Vision (ECCV&rsquo;16)​, IEEE.</div>
+        <div class="col-xs-12 col-sm-9">arXiv&rsquo;17, Robotics</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -236,7 +241,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          October, 2016
+          October, 2017
         </div>
       </div>
     </div>
@@ -256,30 +261,22 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://ivul.kaust.edu.sa/Documents/Publications/2016/Target%20Response%20Adaptation%20for%20Correlation%20Filter%20Tracking.pdf">
+<a class="btn btn-primary btn-outline" href="https://goo.gl/K8g6cD">
   PDF
 </a>
 
 
 
-<a class="btn btn-primary btn-outline" href="https://www.youtube.com/watch?v=yZVY_Evxm3I">
+<a class="btn btn-primary btn-outline" href="https://goo.gl/hFgznR">
   Video
 </a>
 
 
-<a class="btn btn-primary btn-outline" href="https://github.com/adelbibi/Target-Response-Adaptation-for-Correlation-Filter-Tracking">
-  Code
-</a>
 
 
 
-<a class="btn btn-primary btn-outline" href="https://ivul.kaust.edu.sa/Pages/pub-target-response-adaptation.aspx">
-  Project
-</a>
-
-
-<a class="btn btn-primary btn-outline" href="https://ivul.kaust.edu.sa/Documents/more/supplementary/Target%20Response%20Adaptation%20for%20Correlation%20Filter%20Tracking-supp.pdf">
-  Supplement
+<a class="btn btn-primary btn-outline" href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2017arXiv171002410C&amp;data_type=BIBTEX">
+  Bibtex
 </a>
 
 
@@ -301,13 +298,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://matthias.pw/publication/vot16/"><span
-      aria-hidden="true">&larr;</span> The Visual Object Tracking VOT2016 Challenge Results</a></li>
+    <li class="previous"><a href="https://matthias.pw/publication/deep-fpv-racer/"><span
+      aria-hidden="true">&larr;</span> Teaching UAVs to Race Using UE4Sim</a></li>
     
 
-    
-    <li class="next"><a href="https://matthias.pw/publication/pat/">Persistent Aerial Tracking System for UAVs <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>

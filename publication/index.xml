@@ -5,9 +5,18 @@
     <link>https://matthias.pw/publication/</link>
     <description>Recent content in Publications on Welcome to my website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2017 Matthias Mueller</copyright>
+    <copyright>&amp;copy; 2017 Matthias Müller</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>End-to-end Driving via Conditional Imitation Learning</title>
+      <link>https://matthias.pw/publication/conditional-imitation-learning/</link>
+      <pubDate>Fri, 06 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/publication/conditional-imitation-learning/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Teaching UAVs to Race Using UE4Sim</title>
