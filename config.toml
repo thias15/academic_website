@@ -1,5 +1,5 @@
 baseurl = "https://matthias.pw/"
-title = "Welcome to my website"
+title = "Matthias Müller"
 copyright = "&copy; 2017 Matthias Müller"
 theme = "academic"
 enableEmoji = true
