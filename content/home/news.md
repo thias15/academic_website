@@ -13,10 +13,11 @@ widget = "custom"
 weight = 5
 
 +++
-- 21/10/17: Official Release of [UE4Sim] (https://ue4sim.org/)
+- 14/01/18: Our paper on [Conditional Imitation Learning] (https://matthias.pw/publication/conditional-imitation-learning/) was accepted at ICRA'18
+- 21/10/17: Official Release of [Sim4CV] (https://sim4cv.org/)
 - 14/09/17: Received Deep Learning Nano Degree from [Udacity] (https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101)
-- 19/08/17: Two papers related to [UE4Sim] (https://ue4sim.org/) uploaded to arXiv
-- 25/07/17: Demo of our simulator [UE4Sim] (https://ue4sim.org/) at CVPR'17
+- 19/08/17: Two papers related to [Sim4CV] (https://sim4cv.org/) uploaded to arXiv
+- 25/07/17: Demo of our simulator [Sim4CV] (https://sim4cv.org/) at CVPR'17
 - 22/07/17: Presented [Context-Aware Correlation Filter Tracking] (/publication/cf-ca-tracking/) at CVPR'17
 - 09/07/17: Attended [International Computer Vision Summer School] (http://iplab.dmi.unict.it/icvss2017/)
 - 15/06/17: Started internship at [Intel Visual Computing Lab (VCL)](http://vladlen.info/lab/) in Munich
