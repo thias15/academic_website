@@ -7,7 +7,54 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2017 Matthias Müller</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://matthias.pw/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://matthias.pw/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/home/about/</guid>
+      <description>Biography I graduated with a B.Sc. in Electrical Engineering and Math Minor from Texas A&amp;amp;M University in 2011. After graduation I joined P+Z Engineering in Munich, Germany as an Electrical Engineer and worked for 3 years on the development of mild-hybrid electric machines at BMW. In 2014, I pursued my M.Sc. in Electrical Engineering at KAUST and rolled over into the PhD program in 2016. My primary research interest is in object detection and tracking, especially from Unmanned Aerial Vehicles.</description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://matthias.pw/home/news/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/home/news/</guid>
+      <description> 21/10/17: Official Release of UE4Sim 14/09/17: Received Deep Learning Nano Degree from Udacity 19/08/17: Two papers related to UE4Sim uploaded to arXiv 25/07/17: Demo of our simulator UE4Sim at CVPR&amp;rsquo;17 22/07/17: Presented Context-Aware Correlation Filter Tracking at CVPR&amp;rsquo;17 09/07/17: Attended International Computer Vision Summer School 15/06/17: Started internship at Intel Visual Computing Lab (VCL) in Munich 18/03/17: 3rd place in challenge 2 of MBZIRC robotics competition 04/03/17: One paper [Oral] accepted at CVPR&amp;rsquo;17 13/10/16: Demo of our work A Benchmark and Simulator for UAV Tracking at ECCV&amp;rsquo;16 13/07/16: Two papers [Spotlight and Poster] accepted at ECCV&amp;rsquo;16 01/07/16: One paper [Interactive Presentation] accepted at IROS&amp;rsquo;16 13/04/16: Defended my Master Thesis on Persistent Aerial Tracking  </description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://matthias.pw/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>All Publications</title>
+      <link>https://matthias.pw/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://matthias.pw/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

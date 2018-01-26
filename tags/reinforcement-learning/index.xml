@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2017 Matthias Müller</copyright>
     <lastBuildDate>Tue, 14 Feb 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/reinforcement-learning/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://matthias.pw/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>AI Training for UAV Pilots</title>
@@ -15,8 +17,7 @@
       <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://matthias.pw/project/teaching-novice/</guid>
-      <description>&lt;p&gt;We are building a system that learns what elements determine the quality of a flight and how to discriminate between good and bad maneuvers. This work has a lot of synergies with our other work on teaching UAVs how to fly autonomously through a race course. However, the idea here is to help a novice UAV pilot reach the level of an expert and prevent fatalities by detecting bad maneuvers and correcting mistakes on-the-fly.&amp;rdquo;&lt;/p&gt;
-</description>
+      <description>We are building a system that learns what elements determine the quality of a flight and how to discriminate between good and bad maneuvers. This work has a lot of synergies with our other work on teaching UAVs how to fly autonomously through a race course. However, the idea here is to help a novice UAV pilot reach the level of an expert and prevent fatalities by detecting bad maneuvers and correcting mistakes on-the-fly.</description>
     </item>
     
     <item>
@@ -25,8 +26,7 @@
       <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://matthias.pw/project/teaching-uav/</guid>
-      <description>&lt;p&gt;We are using a combination of deep learning and reinforcement learning to teach a UAV to fly autonomously through a race course. The training data is collected using a novel approach by deploying our simulator as a video game and logging flights such that all flights can be regenerated locally. At a later stage this training data will then be complemented with data collected during flights in the real world. Eventually we plan to implement this as a real-world system.&amp;rdquo;&lt;/p&gt;
-</description>
+      <description>We are using a combination of deep learning and reinforcement learning to teach a UAV to fly autonomously through a race course. The training data is collected using a novel approach by deploying our simulator as a video game and logging flights such that all flights can be regenerated locally. At a later stage this training data will then be complemented with data collected during flights in the real world. Eventually we plan to implement this as a real-world system.</description>
     </item>
     
   </channel>
