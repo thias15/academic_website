@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://matthias.pw/publication/conditional-imitation-learning/">
+  <link rel="canonical" href="https://matthias.pw/publication/sim4cv/">
 
   
 
-  <title>End-to-end Driving via Conditional Imitation Learning | Matthias Müller</title>
+  <title>Sim4CV: A Photo-Realistic Simulator for Computer Vision Applications | Matthias Müller</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -138,16 +138,16 @@
 
   
   <div class="article-header">
-    <img src="/img//headers/conditional_imitation_learning.jpg" class="article-banner" itemprop="image">
-    <span class="article-header-caption">End-to-end Driving via Conditional Imitation Learning</span>
+    <img src="/img//headers/ue4sim.jpg" class="article-banner" itemprop="image">
+    <span class="article-header-caption">Sim4CV: A Photo-Realistic Simulator for Computer Vision Applications</span>
   </div>
   
 
   <div class="container pub-title">
-    <h1 itemprop="name">End-to-end Driving via Conditional Imitation Learning</h1>
+    <h1 itemprop="name">Sim4CV: A Photo-Realistic Simulator for Computer Vision Applications</h1>
     <span class="pub-authors" itemprop="author">
       
-      Felipe Codevilla, Matthias Müller, Alexey Dosovitskiy, Antonio López, Vladlen Koltun
+      Matthias Müller, Vincent Casser, Jean Lahoud, Neil Smith, Bernard Ghanem
       
     </span>
     <span class="pull-right">
@@ -156,35 +156,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmatthias.pw%2fpublication%2fconditional-imitation-learning%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmatthias.pw%2fpublication%2fsim4cv%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=End-to-end%20Driving%20via%20Conditional%20Imitation%20Learning&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fconditional-imitation-learning%2f"
+         href="https://twitter.com/intent/tweet?text=Sim4CV%3a%20A%20Photo-Realistic%20Simulator%20for%20Computer%20Vision%20Applications&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fsim4cv%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fconditional-imitation-learning%2f&amp;title=End-to-end%20Driving%20via%20Conditional%20Imitation%20Learning"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fsim4cv%2f&amp;title=Sim4CV%3a%20A%20Photo-Realistic%20Simulator%20for%20Computer%20Vision%20Applications"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmatthias.pw%2fpublication%2fconditional-imitation-learning%2f&amp;title=End-to-end%20Driving%20via%20Conditional%20Imitation%20Learning"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmatthias.pw%2fpublication%2fsim4cv%2f&amp;title=Sim4CV%3a%20A%20Photo-Realistic%20Simulator%20for%20Computer%20Vision%20Applications"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=End-to-end%20Driving%20via%20Conditional%20Imitation%20Learning&amp;body=https%3a%2f%2fmatthias.pw%2fpublication%2fconditional-imitation-learning%2f">
+         href="mailto:?subject=Sim4CV%3a%20A%20Photo-Realistic%20Simulator%20for%20Computer%20Vision%20Applications&amp;body=https%3a%2f%2fmatthias.pw%2fpublication%2fsim4cv%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -201,7 +201,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Deep networks trained on demonstrations of human driving have learned to follow roads and avoid obstacles. However, driving policies trained via imitation learning cannot be controlled at test time. A vehicle trained end-to-end to imitate an expert cannot be guided to take a specific turn at an upcoming intersection. This limits the utility of such systems. We propose to condition imitation learning on high-level command input. At test time, the learned driving policy functions as a chauffeur that handles sensorimotor coordination but continues to respond to navigational commands. We evaluate different architectures for conditional imitation learning in vision-based driving. We conduct experiments in realistic three-dimensional simulations of urban driving and on a 1/5 scale robotic truck that is trained to drive in a residential area. Both systems drive based on visual input yet remain responsive to high-level navigational commands. Experimental results demonstrate that the presented approach significantly outperforms a number of baselines.</p>
+  <p class="pub-abstract" itemprop="text">​We present a photo-realistic training and evaluation simulator (Sim4CV) with extensive applications across various fields of computer vision. Built on top of the Unreal Engine, the simulator integrates full featured physics based cars, unmanned aerial vehicles (UAVs), and animated human actors in diverse urban and suburban 3D environments. We demonstrate the versatility of the simulator with two case studies: autonomous UAV-based tracking of moving objects and autonomous driving using supervised learning. The simulator fully integrates both several state-of-the-art tracking algorithms with a benchmark evaluation tool and a deep neural network (DNN) architecture for training vehicles to drive autonomously. It generates synthetic photo-realistic datasets with automatic ground truth annotations to easily extend existing real-world datasets and provides extensive synthetic data variety through its ability to reconfigure synthetic worlds on the fly using an automatic world generation tool.</p>
 
   
   <div class="row">
@@ -228,7 +228,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">ICRA&rsquo;18</div>
+        <div class="col-xs-12 col-sm-9">IJCV&rsquo;18, International Journal of Computer Vision</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -241,7 +241,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          October, 2017
+          February, 2018
         </div>
       </div>
     </div>
@@ -261,21 +261,25 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://goo.gl/K8g6cD">
+<a class="btn btn-primary btn-outline" href="https://goo.gl/3qbuum">
   PDF
 </a>
 
 
 
-<a class="btn btn-primary btn-outline" href="https://goo.gl/hFgznR">
+<a class="btn btn-primary btn-outline" href="https://goo.gl/dLrseg">
   Video
 </a>
 
 
 
 
+<a class="btn btn-primary btn-outline" href="https://goo.gl/dkaBWr">
+  Project
+</a>
 
-<a class="btn btn-primary btn-outline" href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2017arXiv171002410C&amp;data_type=BIBTEX">
+
+<a class="btn btn-primary btn-outline" href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2017arXiv170805869M&amp;data_type=BIBTEX">
   Bibtex
 </a>
 
@@ -298,13 +302,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://matthias.pw/publication/deep-fpv-racer/"><span
-      aria-hidden="true">&larr;</span> Teaching UAVs to Race Using UE4Sim</a></li>
+    <li class="previous"><a href="https://matthias.pw/publication/conditional-imitation-learning/"><span
+      aria-hidden="true">&larr;</span> End-to-end Driving via Conditional Imitation Learning</a></li>
     
 
-    
-    <li class="next"><a href="https://matthias.pw/publication/sim4cv/">Sim4CV: A Photo-Realistic Simulator for Computer Vision Applications <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
