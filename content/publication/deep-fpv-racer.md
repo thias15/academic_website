@@ -9,7 +9,7 @@ publication_types = ["1"]
 publication = "arXiv'17, Computer Vision and Pattern Recognition"
 publication_short = "arXiv'17"
 selected = true
-title = "Teaching UAVs to Race Using UE4Sim"
+title = "Teaching UAVs to Race Using Sim4CV"
 url_code = ""
 url_dataset = ""
 url_pdf = "https://goo.gl/VK8b3y"
@@ -24,6 +24,6 @@ url = "http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2017arXiv17080588
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "headers/deep_fpv_racer.jpg"
-caption = "Teaching UAVs to Race Using UE4Sim"
+caption = "Teaching UAVs to Race Using Sim4CV"
 
 +++
