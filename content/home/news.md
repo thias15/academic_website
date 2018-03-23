@@ -13,6 +13,7 @@ widget = "custom"
 weight = 5
 
 +++
+- 26/02/18: Our journal paper on [Sim4CV] (https://sim4cv.org/) was accepted at IJCV'18
 - 14/01/18: Our paper on [Conditional Imitation Learning] (https://matthias.pw/publication/conditional-imitation-learning/) was accepted at ICRA'18
 - 21/10/17: Official Release of [Sim4CV] (https://sim4cv.org/)
 - 14/09/17: Received Deep Learning Nano Degree from [Udacity] (https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101)
