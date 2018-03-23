@@ -3,6 +3,10 @@ set mypath=%~dp0
 cd %mypath:~0,-1%
 set /p GitComment= Enter a comment for GitHub: 
 
+git pull
+cd public
+git pull
+cd ..
 hugo
 cd public
 git add --all 
