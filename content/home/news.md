@@ -14,7 +14,7 @@ weight = 5
 
 +++
 - 08/09/18: Best paper/presentation award for [Teaching UAVs to Race] (https://matthias.pw/publication/deep-fpv-racer/) at the ECCV'18 workshop [UAVision](https://sites.google.com/site/uavision2018/) 
-- 02/07/18: [Driving Policy Transfer] (publication/driving-policy-transfer/) accepted at [CoRL'18] (www.robot-learning.org)
+- 02/07/18: [Driving Policy Transfer] (publication/driving-policy-transfer/) accepted at [CoRL'18] (http://robot-learning.org)
 - 02/07/18: Attended AI summer school [PAISS] (https://project.inria.fr/paiss/)
 - 20/06/17: Demo of [Sim4CV] (https://sim4cv.org/) at CVPR'18
 - 04/06/18: Internship at [Microsoft Research] (https://www.microsoft.com/en-us/research/group/air/) in Redmond
