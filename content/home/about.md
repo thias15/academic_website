@@ -12,11 +12,13 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
+	"Autonomous Navigation",
     "Object Tracking",
-	"Unmanned Aerial Vehicles (UAVs)",
 	"Computer Vision",
+	"Robotics",
     "Artificial Intelligence",
-    "Machine Learning"
+    "Machine Learning",
+	"Unmanned Aerial Vehicles"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -35,4 +37,4 @@ weight = 1
 
 # Biography
 
-I graduated with a B.Sc. in Electrical Engineering and Math Minor from Texas A&M University in 2011. After graduation I joined P+Z Engineering in Munich, Germany as an Electrical Engineer and worked for 3 years on the development of mild-hybrid electric machines at BMW. In 2014, I pursued my M.Sc. in Electrical Engineering at KAUST and rolled over into the PhD program in 2016. My primary research interest is in object detection and tracking, especially from Unmanned Aerial Vehicles. In general, I’m interested in computer vision and machine learning including its applications in robotics.  
+Matthias graduated with a B.Sc. in Electrical Engineering and Math Minor from Texas A&M University in 2011. After graduation, he joined P+Z Engineering as an Electrical Engineer and worked for 3 years on the development of mild-hybrid electric machines at BMW. In 2014, he started his M.Sc. in Electrical Engineering at KAUST and rolled over into the PhD program in 2016. His research interests lie in the fields of computer vision, robotics and machine learning where is has contributed to more than 10 publications. Matthias has extensive experience in object tracking and autonomous navigation of embodied agents such as cars and UAVs.

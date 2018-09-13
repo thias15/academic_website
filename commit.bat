@@ -1,7 +1,8 @@
 @echo off
-set mypath=%~dp0
-cd %mypath:~0,-1%
+echo Launch dir: "%~dp0"
+cd "%~dp0"
 set /p GitComment= Enter a comment for GitHub: 
+echo Current dir: "%CD%"
 
 git pull
 cd public
