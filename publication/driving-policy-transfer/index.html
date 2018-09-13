@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://matthias.pw/publication/deep-fpv-racer/">
+  <link rel="canonical" href="https://matthias.pw/publication/driving-policy-transfer/">
 
   
 
-  <title>Teaching UAVs to Race Using Sim4CV | Matthias Müller</title>
+  <title>Driving Policy Transfer via Modularity and Abstraction | Matthias Müller</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -138,16 +138,16 @@
 
   
   <div class="article-header">
-    <img src="/img//headers/deep_fpv_racer.jpg" class="article-banner" itemprop="image">
-    <span class="article-header-caption">Teaching UAVs to Race Using Sim4CV</span>
+    <img src="/img//headers/driving_policy_transfer.jpg" class="article-banner" itemprop="image">
+    <span class="article-header-caption">Driving Policy Transfer via Modularity and Abstraction</span>
   </div>
   
 
   <div class="container pub-title">
-    <h1 itemprop="name">Teaching UAVs to Race Using Sim4CV</h1>
+    <h1 itemprop="name">Driving Policy Transfer via Modularity and Abstraction</h1>
     <span class="pub-authors" itemprop="author">
       
-      Matthias Müller, Vincent Casser, Neil Smith, Dominik L. Michels, Bernard Ghanem
+      Matthias Müller, Alexey Dosovitskiy, Bernard Ghanem, Vladlen Koltun
       
     </span>
     <span class="pull-right">
@@ -156,35 +156,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-fpv-racer%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmatthias.pw%2fpublication%2fdriving-policy-transfer%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Teaching%20UAVs%20to%20Race%20Using%20Sim4CV&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-fpv-racer%2f"
+         href="https://twitter.com/intent/tweet?text=Driving%20Policy%20Transfer%20via%20Modularity%20and%20Abstraction&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fdriving-policy-transfer%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-fpv-racer%2f&amp;title=Teaching%20UAVs%20to%20Race%20Using%20Sim4CV"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fdriving-policy-transfer%2f&amp;title=Driving%20Policy%20Transfer%20via%20Modularity%20and%20Abstraction"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-fpv-racer%2f&amp;title=Teaching%20UAVs%20to%20Race%20Using%20Sim4CV"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmatthias.pw%2fpublication%2fdriving-policy-transfer%2f&amp;title=Driving%20Policy%20Transfer%20via%20Modularity%20and%20Abstraction"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Teaching%20UAVs%20to%20Race%20Using%20Sim4CV&amp;body=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-fpv-racer%2f">
+         href="mailto:?subject=Driving%20Policy%20Transfer%20via%20Modularity%20and%20Abstraction&amp;body=https%3a%2f%2fmatthias.pw%2fpublication%2fdriving-policy-transfer%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -201,7 +201,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Automating the navigation of unmanned aerial vehicles (UAVs) in diverse scenarios has gained much attention in the recent years. However, teaching UAVs to fly in challenging environments remains an unsolved problem, mainly due to the lack of data for training. In this paper, we develop a photo-realistic simulator that can afford the generation of large amounts of training data (both images rendered from the UAV camera and its controls) to teach a UAV to autonomously race through challenging tracks. We train a deep neural network to predict UAV controls from raw image data for the task of autonomous UAV racing. Training is done through imitation learning enabled by data augmentation to allow for the correction of navigation mistakes. Extensive experiments demonstrate that our trained network (when sufficient data augmentation is used) outperforms state-of-the-art methods and flies more consistently than many human pilots.</p>
+  <p class="pub-abstract" itemprop="text">End-to-end approaches to autonomous driving have high sample complexity and are difficult to scale to realistic urban driving. Simulation can help end-to-end driving systems by providing a cheap, safe, and diverse training environment. Yet training driving policies in simulation brings up the problem of transferring such policies to the real world. We present an approach to transferring driving policies from simulation to reality via modularity and abstraction. Our approach is inspired by classic driving systems and aims to combine the benefits of modular architectures and end-to-end deep learning approaches. The key idea is to encapsulate the driving policy such that it is not directly exposed to raw perceptual input or low-level vehicle dynamics. We evaluate the presented approach in simulated urban environments and in the real world. In particular, we transfer a driving policy trained in simulation to a 1/5-scale robotic truck that is deployed in a variety of conditions, with no finetuning, on two continents.</p>
 
   
   <div class="row">
@@ -228,7 +228,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">ECCVW&rsquo;18</div>
+        <div class="col-xs-12 col-sm-9">CoRL&rsquo;18</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -241,7 +241,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          August, 2017
+          September, 2018
         </div>
       </div>
     </div>
@@ -261,21 +261,21 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://goo.gl/VK8b3y">
+<a class="btn btn-primary btn-outline" href="https://goo.gl/FDYU4n">
   PDF
 </a>
 
 
 
-
-
-
-<a class="btn btn-primary btn-outline" href="https://goo.gl/dkaBWr">
-  Project
+<a class="btn btn-primary btn-outline" href="https://goo.gl/LwWAiJ">
+  Video
 </a>
 
 
-<a class="btn btn-primary btn-outline" href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2017arXiv170805884M&amp;data_type=BIBTEX">
+
+
+
+<a class="btn btn-primary btn-outline" href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2018arXiv180409364M&amp;data_type=BIBTEX">
   Bibtex
 </a>
 
@@ -298,13 +298,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://matthias.pw/publication/cf-ca-tracking/"><span
-      aria-hidden="true">&larr;</span> Context-Aware Correlation Filter Tracking</a></li>
+    <li class="previous"><a href="https://matthias.pw/publication/sim4cv/"><span
+      aria-hidden="true">&larr;</span> Sim4CV: A Photo-Realistic Simulator for Computer Vision Applications</a></li>
     
 
-    
-    <li class="next"><a href="https://matthias.pw/publication/conditional-imitation-learning/">End-to-end Driving via Conditional Imitation Learning <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
