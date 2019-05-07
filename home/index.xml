@@ -7,7 +7,54 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2017 Matthias Müller</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://matthias.pw/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://matthias.pw/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/home/about/</guid>
+      <description>Biography Matthias graduated with a B.Sc. in Electrical Engineering and Math Minor from Texas A&amp;amp;M University in 2011. After graduation, he joined P+Z Engineering as an Electrical Engineer and worked for 3 years on the development of mild-hybrid electric machines at BMW. In 2014, he started his M.Sc. in Electrical Engineering at KAUST and rolled over into the PhD program in 2016. His research interests lie in the fields of computer vision, robotics and machine learning where is has contributed to more than 10 publications.</description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://matthias.pw/home/news/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/home/news/</guid>
+      <description> 08/09/18: Best paper/presentation award for Teaching UAVs to Race at the ECCV&amp;rsquo;18 workshop UAVision 02/07/18: Driving Policy Transfer accepted at CoRL&amp;rsquo;18 02/07/18: Attended AI summer school PAISS 20/06/17: Demo of Sim4CV at CVPR&amp;rsquo;18 04/06/18: Internship at Microsoft Research in Redmond 26/02/18: Sim4CV accepted at IJCV&amp;rsquo;18 14/01/18: Conditional Imitation Learning accepted at ICRA&amp;rsquo;18 14/09/17: Received Deep Learning Nano Degree from Udacity 25/07/17: Demo of Sim4CV at CVPR&amp;rsquo;17 09/07/17: Attended CV summer school ICVSS 15/06/17: Internship at Intel Visual Computing Lab (VCL) in Munich 18/03/17: 3rd place in challenge 2 of MBZIRC robotics competition 04/03/17: Context-Aware CF Tracking accepted as Oral at CVPR&amp;rsquo;17 13/10/16: Demo of UAVSim/Sim4CV at ECCV&amp;rsquo;16 13/07/16: Two papers [Spotlight and Poster] accepted at ECCV&amp;rsquo;16 01/07/16: One paper [Interactive Presentation] accepted at IROS&amp;rsquo;16 13/04/16: Defended my Master Thesis on Persistent Aerial Tracking  </description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://matthias.pw/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>All Publications</title>
+      <link>https://matthias.pw/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://matthias.pw/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

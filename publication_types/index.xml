@@ -6,15 +6,26 @@
     <description>Recent content in Publication_types on Matthias Müller</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2017 Matthias Müller</copyright>
-    <lastBuildDate>Thu, 06 Sep 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication_types/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://matthias.pw/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>1</title>
       <link>https://matthias.pw/publication_types/1/</link>
-      <pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://matthias.pw/publication_types/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>https://matthias.pw/publication_types/2/</link>
+      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/publication_types/2/</guid>
       <description></description>
     </item>
     

@@ -6,21 +6,13 @@
     <description>Recent content in Tags on Matthias Müller</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2017 Matthias Müller</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Feb 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://matthias.pw/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>https://matthias.pw/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://matthias.pw/tags/academic/</guid>
-      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
+      <title>deep-learning</title>
       <link>https://matthias.pw/tags/deep-learning/</link>
       <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
       
@@ -29,25 +21,7 @@
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>https://matthias.pw/tags/hugo/</link>
-      <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
-      
-      <guid>https://matthias.pw/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jekyll</title>
-      <link>https://matthias.pw/tags/jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://matthias.pw/tags/jekyll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reinforcement Learning</title>
+      <title>reinforcement-learning</title>
       <link>https://matthias.pw/tags/reinforcement-learning/</link>
       <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
       
@@ -56,11 +30,38 @@
     </item>
     
     <item>
-      <title>Synthetic Data</title>
+      <title>synthetic-data</title>
       <link>https://matthias.pw/tags/synthetic-data/</link>
       <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://matthias.pw/tags/synthetic-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>https://matthias.pw/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://matthias.pw/tags/hugo/</link>
+      <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll</title>
+      <link>https://matthias.pw/tags/jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/tags/jekyll/</guid>
       <description></description>
     </item>
     

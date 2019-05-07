@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://matthias.pw/publication/deep-fpv-racer/">
+  <link rel="canonical" href="https://matthias.pw/publication/cfn/">
 
   
 
-  <title>Teaching UAVs to Race: End-to-End Regression of Agile Controls in Simulation | Matthias Müller</title>
+  <title>Learning a Controller Fusion Network by Online Trajectory Filtering for Vision-based UAV Racing | Matthias Müller</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -138,16 +138,16 @@
 
   
   <div class="article-header">
-    <img src="/img//headers/deep_fpv_racer.jpg" class="article-banner" itemprop="image">
-    <span class="article-header-caption">Teaching UAVs to Race Using Sim4CV</span>
+    <img src="/img//headers/cfn.jpg" class="article-banner" itemprop="image">
+    <span class="article-header-caption">Learning a Controller Fusion Network by Online Trajectory Filtering for Vision-based UAV Racing</span>
   </div>
   
 
   <div class="container pub-title">
-    <h1 itemprop="name">Teaching UAVs to Race: End-to-End Regression of Agile Controls in Simulation</h1>
+    <h1 itemprop="name">Learning a Controller Fusion Network by Online Trajectory Filtering for Vision-based UAV Racing</h1>
     <span class="pub-authors" itemprop="author">
       
-      Matthias Müller, Vincent Casser, Neil Smith, Dominik L. Michels, Bernard Ghanem
+      Matthias Müller<em>, Guohao Li</em>, Vincent Casser, Neil Smith, Dominik L. Michels, Bernard Ghanem
       
     </span>
     <span class="pull-right">
@@ -156,35 +156,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-fpv-racer%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmatthias.pw%2fpublication%2fcfn%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Teaching%20UAVs%20to%20Race%3a%20End-to-End%20Regression%20of%20Agile%20Controls%20in%20Simulation&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-fpv-racer%2f"
+         href="https://twitter.com/intent/tweet?text=Learning%20a%20Controller%20Fusion%20Network%20by%20Online%20Trajectory%20Filtering%20for%20Vision-based%20UAV%20Racing&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fcfn%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-fpv-racer%2f&amp;title=Teaching%20UAVs%20to%20Race%3a%20End-to-End%20Regression%20of%20Agile%20Controls%20in%20Simulation"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fcfn%2f&amp;title=Learning%20a%20Controller%20Fusion%20Network%20by%20Online%20Trajectory%20Filtering%20for%20Vision-based%20UAV%20Racing"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-fpv-racer%2f&amp;title=Teaching%20UAVs%20to%20Race%3a%20End-to-End%20Regression%20of%20Agile%20Controls%20in%20Simulation"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmatthias.pw%2fpublication%2fcfn%2f&amp;title=Learning%20a%20Controller%20Fusion%20Network%20by%20Online%20Trajectory%20Filtering%20for%20Vision-based%20UAV%20Racing"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Teaching%20UAVs%20to%20Race%3a%20End-to-End%20Regression%20of%20Agile%20Controls%20in%20Simulation&amp;body=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-fpv-racer%2f">
+         href="mailto:?subject=Learning%20a%20Controller%20Fusion%20Network%20by%20Online%20Trajectory%20Filtering%20for%20Vision-based%20UAV%20Racing&amp;body=https%3a%2f%2fmatthias.pw%2fpublication%2fcfn%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -201,7 +201,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Automating the navigation of unmanned aerial vehicles (UAVs) in diverse scenarios has gained much attention in recent years. However, teaching UAVs to fly in challenging environments remains an unsolved problem, mainly due to the lack of training data. In this paper, we train a deep neural network to predict UAV controls from raw image data for the task of autonomous UAV racing in a photo-realistic simulation. Training is done through imitation learning with data augmentation to allow for the correction of navigation mistakes. Extensive experiments demonstrate that our trained network (when sufficient data augmentation is used) outperforms state-of-the-art methods and flies more consistently than many human pilots. Additionally, we show that our optimized network architecture can run in real-time on embedded hardware, allowing for efficient on-board processing critical for real-world deployment. From a broader perspective, our results underline the importance of extensive data augmentation techniques to improve robustness in end-to-end learning setups.</p>
+  <p class="pub-abstract" itemprop="text">​Autonomous UAV racing has recently emerged as an interesting research problem. The dream is to beat humans in this new fast-paced sport. A common approach is to learn an end-to-end policy that directly predicts controls from raw images by imitating an expert. However, such a policy is limited by the expert it imitates and scaling to other environments and vehicle dynamics is difficult. One approach to overcome the drawbacks of an end-to-end policy is to train a network only on the perception task and handle control with a PID or MPC controller. However, a single controller must be extensively tuned and cannot usually cover the whole state space. In this paper, we propose learning an optimized controller using a DNN that fuses multiple controllers. The network learns a robust controller with online trajectory filtering, which suppresses noisy trajectories and imperfections of individual controllers. The result is a network that is able to learn a good fusion of filtered trajectories from different controllers leading to significant improvements in overall performance. We compare our trained network to controllers it has learned from, end-to-end baselines and human pilots in a realistic simulation; our network beats all baselines in extensive experiments and approaches the performance of a professional human pilot.</p>
 
   
   <div class="row">
@@ -228,7 +228,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">ECCVW&rsquo;18 - UAVision&rsquo;18</div>
+        <div class="col-xs-12 col-sm-9">ECCVW&rsquo;19 - UAVision&rsquo;19</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -241,7 +241,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          August, 2017
+          April, 2019
         </div>
       </div>
     </div>
@@ -261,21 +261,21 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://goo.gl/VK8b3y">
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1904.08801">
   PDF
 </a>
 
 
 
-
-
-
-<a class="btn btn-primary btn-outline" href="https://goo.gl/dkaBWr">
-  Project
+<a class="btn btn-primary btn-outline" href="https://youtu.be/hGKlE5X9Z5U">
+  Video
 </a>
 
 
-<a class="btn btn-primary btn-outline" href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2017arXiv170805884M&amp;data_type=BIBTEX">
+
+
+
+<a class="btn btn-primary btn-outline" href="https://dblp.uni-trier.de/rec/bib2/journals/corr/abs-1904-08801.bib">
   Bibtex
 </a>
 
@@ -298,13 +298,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://matthias.pw/publication/cf-ca-tracking/"><span
-      aria-hidden="true">&larr;</span> Context-Aware Correlation Filter Tracking</a></li>
+    <li class="previous"><a href="https://matthias.pw/publication/driving-policy-transfer/"><span
+      aria-hidden="true">&larr;</span> Driving Policy Transfer via Modularity and Abstraction</a></li>
     
 
-    
-    <li class="next"><a href="https://matthias.pw/publication/conditional-imitation-learning/">End-to-end Driving via Conditional Imitation Learning <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
