@@ -12,29 +12,11 @@
     
     
     <item>
-      <title>Learning a Controller Fusion Network by Online Trajectory Filtering for Vision-based UAV Racing</title>
-      <link>https://matthias.pw/publication/cfn/</link>
-      <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://matthias.pw/publication/cfn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Driving Policy Transfer via Modularity and Abstraction</title>
       <link>https://matthias.pw/publication/driving-policy-transfer/</link>
       <pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://matthias.pw/publication/driving-policy-transfer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OIL: Observational Imitation Learning</title>
-      <link>https://matthias.pw/publication/oil/</link>
-      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://matthias.pw/publication/oil/</guid>
       <description></description>
     </item>
     
@@ -107,6 +89,15 @@
       <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://matthias.pw/publication/vot16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OIL: Observational Imitation Learning</title>
+      <link>https://matthias.pw/publication/oil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/publication/oil/</guid>
       <description></description>
     </item>
     
