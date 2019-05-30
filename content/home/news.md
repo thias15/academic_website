@@ -13,6 +13,7 @@ widget = "custom"
 weight = 5
 
 +++
+- 08/05/19: Invited as a speaker at [EECVC](http://eecvc.com/speakers-2019/)
 - 30/04/19: Paper [OIL] (https://matthias.pw/publication/oil/) accepted at [RSS'19](http://www.roboticsconference.org/) 
 - 09/04/19: Paper [CFN] (https://matthias.pw/publication/cfn/) accepted as [Oral] at the CVPR'19 workshop [UAVision'19](https://sites.google.com/site/uavision2019/) 
 - 08/09/18: Best paper/presentation award for [Teaching UAVs to Race] (https://matthias.pw/publication/deep-fpv-racer/) at the ECCV'18 workshop [UAVision'18](https://sites.google.com/site/uavision2018/) 
