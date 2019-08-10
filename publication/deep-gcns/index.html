@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://matthias.pw/publication/oil/">
+  <link rel="canonical" href="https://matthias.pw/publication/deep-gcns/">
 
   
 
-  <title>OIL: Observational Imitation Learning | Matthias Müller</title>
+  <title>DeepGCNs: Making GCNs Go as Deep as CNNs | Matthias Müller</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -138,16 +138,16 @@
 
   
   <div class="article-header">
-    <img src="/img//headers/oil.jpg" class="article-banner" itemprop="image">
-    <span class="article-header-caption">OIL: Observational Imitation Learning</span>
+    <img src="/img//headers/deep-gcns.jpg" class="article-banner" itemprop="image">
+    <span class="article-header-caption">DeepGCNs: Making GCNs Go as Deep as CNNs</span>
   </div>
   
 
   <div class="container pub-title">
-    <h1 itemprop="name">OIL: Observational Imitation Learning</h1>
+    <h1 itemprop="name">DeepGCNs: Making GCNs Go as Deep as CNNs</h1>
     <span class="pub-authors" itemprop="author">
       
-      Guohao Li, Matthias Müller, Vincent Casser, Neil Smith, Dominik L. Michels, Bernard Ghanem
+      Guohao Li, Matthias Müller, Ali Thabet, Bernard Ghanem
       
     </span>
     <span class="pull-right">
@@ -156,35 +156,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmatthias.pw%2fpublication%2foil%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-gcns%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=OIL%3a%20Observational%20Imitation%20Learning&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2foil%2f"
+         href="https://twitter.com/intent/tweet?text=DeepGCNs%3a%20Making%20GCNs%20Go%20as%20Deep%20as%20CNNs&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-gcns%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2foil%2f&amp;title=OIL%3a%20Observational%20Imitation%20Learning"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-gcns%2f&amp;title=DeepGCNs%3a%20Making%20GCNs%20Go%20as%20Deep%20as%20CNNs"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmatthias.pw%2fpublication%2foil%2f&amp;title=OIL%3a%20Observational%20Imitation%20Learning"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-gcns%2f&amp;title=DeepGCNs%3a%20Making%20GCNs%20Go%20as%20Deep%20as%20CNNs"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=OIL%3a%20Observational%20Imitation%20Learning&amp;body=https%3a%2f%2fmatthias.pw%2fpublication%2foil%2f">
+         href="mailto:?subject=DeepGCNs%3a%20Making%20GCNs%20Go%20as%20Deep%20as%20CNNs&amp;body=https%3a%2f%2fmatthias.pw%2fpublication%2fdeep-gcns%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -201,7 +201,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Recent work has explored the problem of autonomous navigation by imitating a teacher and learning an end-to-end policy, which directly predicts controls from raw images. However, these approaches tend to be sensitive to mistakes by the teacher and do not scale well to other environments or vehicles. To this end, we propose Observational Imitation Learning (OIL), a novel imitation learning variant that supports online training and automatic selection of optimal behavior by observing multiple imperfect teachers. We apply our proposed methodology to the challenging problems of autonomous driving and UAV racing. For both tasks, we utilize the Sim4CV simulator that enables the generation of large amounts of synthetic training data and also allows for online learning and evaluation. We train a perception network to predict waypoints from raw image data and use OIL to train another network to predict controls from these waypoints. Extensive experiments demonstrate that our trained network outperforms its teachers, conventional imitation learning (IL) and reinforcement learning (RL) baselines and even humans in simulation.</p>
+  <p class="pub-abstract" itemprop="text">Convolutional Neural Networks (CNNs) achieve impressive performance in a wide variety of fields. Their success benefited from a massive boost when very deep CNN models were able to be reliably trained. Despite their merits, CNNs fail to properly address problems with non-Euclidean data. To overcome this challenge, Graph Convolutional Networks (GCNs) build graphs to represent non-Euclidean data, borrow concepts from CNNs, and apply them in training. GCNs show promising results, but they are usually limited to very shallow models due to the vanishing gradient problem. As a result, most state-of-the-art GCN models are no deeper than 3 or 4 layers. In this work, we present new ways to successfully train very deep GCNs. We do this by borrowing concepts from CNNs, specifically residual/dense connections and dilated convolutions, and adapting them to GCN architectures. Extensive experiments  show the positive effect of these deep GCN frameworks. Finally, we use these new concepts to build a very deep 56-layer GCN, and show how it significantly boosts performance (&#43;3.7% mIoU over state-of-the-art) in the task of point cloud semantic segmentation. We believe that the community can greatly benefit from this work, since it opens up many opportunities for advancing GCN-based research.  </p>
 
   
   <div class="row">
@@ -228,7 +228,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">RSS&rsquo;19</div>
+        <div class="col-xs-12 col-sm-9">Oral at International Conference on Computer Vision 2019</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -241,7 +241,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          April, 2019
+          August, 2019
         </div>
       </div>
     </div>
@@ -261,25 +261,29 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1803.01129">
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1904.03751">
   PDF
 </a>
 
 
 
-<a class="btn btn-primary btn-outline" href="https://drive.google.com/file/d/1EKMH-yDZZmMcQjU2Is2ncs2QfRtPLDDZ/view">
+<a class="btn btn-primary btn-outline" href="https://www.youtube.com/watch?v=CHB96wBV4Ts">
   Video
 </a>
 
 
+<a class="btn btn-primary btn-outline" href="https://github.com/lightaime/deep_gcns">
+  Code
+</a>
 
 
-<a class="btn btn-primary btn-outline" href="https://sites.google.com/kaust.edu.sa/oil/">
+
+<a class="btn btn-primary btn-outline" href="https://sites.google.com/view/deep-gcns">
   Project
 </a>
 
 
-<a class="btn btn-primary btn-outline" href="https://dblp.uni-trier.de/rec/bib2/journals/corr/abs-1803-01129.bib">
+<a class="btn btn-primary btn-outline" href="https://dblp.uni-trier.de/rec/bib2/journals/corr/abs-1904-03751.bib">
   Bibtex
 </a>
 
@@ -302,13 +306,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://matthias.pw/publication/cfn/"><span
-      aria-hidden="true">&larr;</span> Learning a Controller Fusion Network by Online Trajectory Filtering for Vision-based UAV Racing</a></li>
+    <li class="previous"><a href="https://matthias.pw/publication/oil/"><span
+      aria-hidden="true">&larr;</span> OIL: Observational Imitation Learning</a></li>
     
 
-    
-    <li class="next"><a href="https://matthias.pw/publication/deep-gcns/">DeepGCNs: Making GCNs Go as Deep as CNNs <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
