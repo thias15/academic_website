@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://matthias.pw/publication/driving-policy-transfer/">
+  <link rel="canonical" href="https://matthias.pw/publication/tracking-net/">
 
   
 
-  <title>Driving Policy Transfer via Modularity and Abstraction | Matthias Müller</title>
+  <title>TrackingNet: A Large-Scale Dataset and Benchmark for Object Tracking in the Wild | Matthias Müller</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -138,16 +138,16 @@
 
   
   <div class="article-header">
-    <img src="/img//headers/driving_policy_transfer.jpg" class="article-banner" itemprop="image">
-    <span class="article-header-caption">Driving Policy Transfer via Modularity and Abstraction</span>
+    <img src="/img//headers/tracking_net.jpg" class="article-banner" itemprop="image">
+    <span class="article-header-caption">TrackingNet: A Large-Scale Dataset and Benchmark for Object Tracking in the Wild</span>
   </div>
   
 
   <div class="container pub-title">
-    <h1 itemprop="name">Driving Policy Transfer via Modularity and Abstraction</h1>
+    <h1 itemprop="name">TrackingNet: A Large-Scale Dataset and Benchmark for Object Tracking in the Wild</h1>
     <span class="pub-authors" itemprop="author">
       
-      Matthias Müller, Alexey Dosovitskiy, Bernard Ghanem, Vladlen Koltun
+      Matthias Müller, Adel Bibi, Silvio Giancola, Salman Al-Subaihi, Bernard Ghanem
       
     </span>
     <span class="pull-right">
@@ -156,35 +156,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmatthias.pw%2fpublication%2fdriving-policy-transfer%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmatthias.pw%2fpublication%2ftracking-net%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Driving%20Policy%20Transfer%20via%20Modularity%20and%20Abstraction&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fdriving-policy-transfer%2f"
+         href="https://twitter.com/intent/tweet?text=TrackingNet%3a%20A%20Large-Scale%20Dataset%20and%20Benchmark%20for%20Object%20Tracking%20in%20the%20Wild&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2ftracking-net%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2fdriving-policy-transfer%2f&amp;title=Driving%20Policy%20Transfer%20via%20Modularity%20and%20Abstraction"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmatthias.pw%2fpublication%2ftracking-net%2f&amp;title=TrackingNet%3a%20A%20Large-Scale%20Dataset%20and%20Benchmark%20for%20Object%20Tracking%20in%20the%20Wild"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmatthias.pw%2fpublication%2fdriving-policy-transfer%2f&amp;title=Driving%20Policy%20Transfer%20via%20Modularity%20and%20Abstraction"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmatthias.pw%2fpublication%2ftracking-net%2f&amp;title=TrackingNet%3a%20A%20Large-Scale%20Dataset%20and%20Benchmark%20for%20Object%20Tracking%20in%20the%20Wild"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Driving%20Policy%20Transfer%20via%20Modularity%20and%20Abstraction&amp;body=https%3a%2f%2fmatthias.pw%2fpublication%2fdriving-policy-transfer%2f">
+         href="mailto:?subject=TrackingNet%3a%20A%20Large-Scale%20Dataset%20and%20Benchmark%20for%20Object%20Tracking%20in%20the%20Wild&amp;body=https%3a%2f%2fmatthias.pw%2fpublication%2ftracking-net%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -201,7 +201,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">End-to-end approaches to autonomous driving have high sample complexity and are difficult to scale to realistic urban driving. Simulation can help end-to-end driving systems by providing a cheap, safe, and diverse training environment. Yet training driving policies in simulation brings up the problem of transferring such policies to the real world. We present an approach to transferring driving policies from simulation to reality via modularity and abstraction. Our approach is inspired by classic driving systems and aims to combine the benefits of modular architectures and end-to-end deep learning approaches. The key idea is to encapsulate the driving policy such that it is not directly exposed to raw perceptual input or low-level vehicle dynamics. We evaluate the presented approach in simulated urban environments and in the real world. In particular, we transfer a driving policy trained in simulation to a 1/5-scale robotic truck that is deployed in a variety of conditions, with no finetuning, on two continents.</p>
+  <p class="pub-abstract" itemprop="text">Despite the numerous developments in object tracking, further development of current tracking algorithms is limited by small and mostly saturated datasets. As a matter of fact, data-hungry trackers based on deep-learning currently rely on object detection datasets due to the scarcity of dedicated large-scale tracking datasets. In this work, we present TrackingNet, the first large-scale dataset and benchmark for object tracking in the wild. We provide more than 30K videos with more than 14 million dense bounding box annotations. Our dataset covers a wide selection of object classes in broad and diverse context. By releasing such a large-scale dataset, we expect deep trackers to further improve and generalize. In addition, we introduce a new benchmark composed of 500 novel videos, modeled with a distribution similar to our training dataset. By sequestering the annotation of the test set and providing an online evaluation server, we provide a fair benchmark for future development of object trackers. Deep trackers fine-tuned on a fraction of our dataset improve their performance by up to 1.6% on OTB100 and up to 1.7% on TrackingNet Test. We provide an extensive benchmark on TrackingNet by evaluating more than 20 trackers. Our results suggest that object tracking in the wild is far from being solved.</p>
 
   
   <div class="row">
@@ -228,7 +228,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">CoRL&rsquo;18</div>
+        <div class="col-xs-12 col-sm-9">European Conference on Computer Vision 2018</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -241,7 +241,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          September, 2018
+          October, 2018
         </div>
       </div>
     </div>
@@ -261,21 +261,25 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://goo.gl/FDYU4n">
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1803.10794">
   PDF
 </a>
 
 
 
-<a class="btn btn-primary btn-outline" href="https://goo.gl/LwWAiJ">
-  Video
+
+<a class="btn btn-primary btn-outline" href="https://github.com/SilvioGiancola/TrackingNet-devkit">
+  Code
 </a>
 
 
 
+<a class="btn btn-primary btn-outline" href="https://tracking-net.org/">
+  Project
+</a>
 
 
-<a class="btn btn-primary btn-outline" href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2018arXiv180409364M&amp;data_type=BIBTEX">
+<a class="btn btn-primary btn-outline" href="https://citation-needed.springer.com/v2/references/10.1007/978-3-030-01246-5_19?format=bibtex&amp;flavour=citation">
   Bibtex
 </a>
 
@@ -298,12 +302,12 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://matthias.pw/publication/sim4cv/"><span
-      aria-hidden="true">&larr;</span> Sim4CV: A Photo-Realistic Simulator for Computer Vision Applications</a></li>
+    <li class="previous"><a href="https://matthias.pw/publication/driving-policy-transfer/"><span
+      aria-hidden="true">&larr;</span> Driving Policy Transfer via Modularity and Abstraction</a></li>
     
 
     
-    <li class="next"><a href="https://matthias.pw/publication/tracking-net/">TrackingNet: A Large-Scale Dataset and Benchmark for Object Tracking in the Wild <span
+    <li class="next"><a href="https://matthias.pw/publication/cfn/">Learning a Controller Fusion Network by Online Trajectory Filtering for Vision-based UAV Racing <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

@@ -36,6 +36,15 @@
     </item>
     
     <item>
+      <title>TrackingNet: A Large-Scale Dataset and Benchmark for Object Tracking in the Wild</title>
+      <link>https://matthias.pw/publication/tracking-net/</link>
+      <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthias.pw/publication/tracking-net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Driving Policy Transfer via Modularity and Abstraction</title>
       <link>https://matthias.pw/publication/driving-policy-transfer/</link>
       <pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate>
@@ -134,15 +143,6 @@
       <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://matthias.pw/publication/target-response-adaptation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Visual Object Tracking VOT2016 Challenge Results</title>
-      <link>https://matthias.pw/publication/vot16/</link>
-      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://matthias.pw/publication/vot16/</guid>
       <description></description>
     </item>
     
