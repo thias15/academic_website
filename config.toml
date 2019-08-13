@@ -20,12 +20,12 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Matthias Müller"
-  role = "PhD Student - Electrical Engineering (Computer Vision)"
-  organization = "King Abdullah University of Science and Technology"
-  organization_url = "https://www.kaust.edu.sa/"
+  role = "Research Scientist"
+  organization = "Intelligent Systems Lab at Intel"
+  organization_url = "http://vladlen.info/"
   avatar = "portrait.jpg"
   email = "matthias.mueller.2@kaust.edu.sa"
-  address = "CEMSE Division, KAUST, Al-Khawarizmi Applied Mathematics BLDG. 1, Office 2106-WS11, Thuwal 23955-6900, Makkah Province, Saudi Arabia"
+  address = "Lilienthalstrasse 15, 85579 Neubiberg"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = "+966 545919043"
   skype = "thias28"
