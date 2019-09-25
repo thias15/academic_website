@@ -35,7 +35,9 @@
   translation: Education
 
 # Publications widget
-
+- id: all_publications
+  translation: All Publications
+  
 - id: more_publications
   translation: More Publications
 

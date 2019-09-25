@@ -35,6 +35,8 @@
   translation: Ausbildung
 
 # Publications widget
+- id: all_publications
+  translation: Alle Publikationen
 
 - id: more_publications
   translation: Weitere Publikationen

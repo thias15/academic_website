@@ -181,7 +181,7 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "All"
   parent = "pubs"
-  url = "#publications"
+  url = "publication"
   
  
 #[[menu.main]]
@@ -213,20 +213,20 @@ defaultContentLanguageInSubdir = false
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
-#[Languages]
+[Languages]
 # Configure the English version of the website.
-#[Languages.en]
-#   languageCode = "english"
+[Languages.en]
+   languageCode = "en"
 
 #[Languages.de]
-#	weight = 1
-#	languageName = "Deutsch"
-#	title = "Meine Webseite"
-#   languageCode = "german"  
+#    languageCode = "de"  
+#	 languageName = "Deutsch"
+#    contentDir="content/german"
 
-#[[Languages.de.menu.main]]
-#	url 	= "/de#about"
-#	name 	= "Startseite"
-#	weight	= 0
+
+[[Languages.de.menu.main]]
+	url 	= "/de#about"
+	name 	= "Startseite"
+	weight	= 0
 
 
