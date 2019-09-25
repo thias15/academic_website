@@ -1,6 +1,6 @@
 baseurl = "https://matthias.pw/"
 title = "Matthias Müller"
-copyright = "&copy; 2017 Matthias Müller"
+copyright = "&copy; 2019 Matthias Müller"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -27,7 +27,7 @@ defaultContentLanguageInSubdir = false
   email = "matthias.mueller.2@kaust.edu.sa"
   address = "Lilienthalstrasse 15, 85579 Neubiberg"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "+966 545919043"
+  #phone = "+966 545919043"
   skype = "thias28"
   telegram = ""
 
