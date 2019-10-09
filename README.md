@@ -1,74 +1,18 @@
-# Deployment From gh-pages Branch 
+# Automatic Deployment on Gitlab
 
-You can tell GitHub pages to treat your master branch as the published site or point to a separate gh-pages branch. This approach is a bit more complex but has some advantages:
-
-- It keeps your source and generated website in different branches and therefore maintains version control history for both
-- It uses the default public folder
-
-[Different Methods](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
-[Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-## Preparations for gh-pages Branch
-These steps only need to be done once. 
-
-### Add the Public Folder
-
-First, add the public folder to your .gitignore file at the project root so that the directory is ignored on the master branch:
-
-`echo /public >> .gitignore`
-
-### Initialize Your gh-pages Branch
-
-You can now initialize your gh-pages branch as an empty orphan branch:
-
+1) In order to validate changes, build the website locally in the public directory:
 ```
-git checkout --orphan gh-pages
-git reset --hard
-git commit --allow-empty -m "Initializing gh-pages branch"
-git push origin gh-pages
-git checkout master
+hugo server
 ```
 
-### Build and Deployment
-
-Make sure you delete the public folder if it exists. Now check out the gh-pages branch into your public folder using git’s worktree feature. Essentially, the worktree allows you to have multiple branches of the same local repository to be checked out in different directories:
-
-`git worktree add -B gh-pages public origin/gh-pages`
-
-Regenerate the site using the hugo command and commit the generated files on the gh-pages branch:
-
+2) Inspect the website by navigating to:
 ```
-hugo
-cd public 
-git add --all
-git commit -m "Publishing to gh-pages"
-cd ..
+http://localhost:1313
 ```
 
-or:
-
-`hugo && cd public && git add --all && git commit -m "Publishing to gh-pages" && cd .. `
-
-If the changes in your local gh-pages branch look alright, push them to the remote repo:
-
-`git push origin gh-pages`
-
-### Set gh-pages as Your Publish Branch
-
-In order to use your gh-pages branch as your publishing branch, you’ll need to configure the repository within the GitHub UI. This will likely happen automatically once GitHub realizes you’ve created this branch. You can also set the branch manually from within your GitHub project:
-Go to Settings -> GitHub Pages
-From Source, select “gh-pages branch” and then Save. If the option isn’t enabled, you likely have not created the branch yet OR you have not pushed the branch from your local machine to the hosted repository on GitHub.
-After a short while, you’ll see the updated contents on your GitHub Pages site.
-
-## Update website
+3) Make sure the public folder is in the .gitignore file at the project root so that the directory is ignored on the master branch.
 ```
-hugo
-cd public 
-git add --all
-git commit -m "Publishing to gh-pages"
-cd ..
-git push origin gh-pages
-git add --all
-git commit -m "Updating master branch"
-git push origin master
+echo /public >> .gitignore
 ```
+
+4) Push the source code to master. The website will be automatically built and deployed. The configuration is defined in the file `.gitlab-ci.yml`.
